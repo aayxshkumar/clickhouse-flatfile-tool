@@ -70,3 +70,25 @@ yarn-error.log*
 
 # Docker volumes
 docker-volumes/
+# Server build output
+/server/dist/
+
+# Local ClickHouse server state (written when clickhouse runs from server/ or the repo root)
+/uuid
+/server/uuid
+/server/store/
+/server/data/
+/server/metadata/
+/server/clickhouse_data/
+/server/clickhouse_tmp/
+/server/clickhouse_user_files/
+/server/clickhouse_user_scripts/
+/server/preprocessed_configs/
+/server/config-preprocessed.xml
+/server/status
+/server/user_files/
+/server/format_schemas/
+/server/flags/
+
+# Uploaded and exported files
+/server/uploads/
