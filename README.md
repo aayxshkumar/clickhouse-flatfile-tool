@@ -1,5 +1,7 @@
 # ClickHouse Flat File Tool
 
+> Built as a take-home assignment for Zeotap in April 2025.
+
 A bidirectional data ingestion tool that seamlessly transfers data between ClickHouse databases and flat files (CSV, TSV, TXT).
 
 ![Tool Screenshot](screenshots/main-dashboard.png)
